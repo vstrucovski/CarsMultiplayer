@@ -1,11 +1,18 @@
 {
   "dependencies": {
-    "com.gustavopsantos.reflex": {
-      "version": "https://github.com/gustavopsantos/reflex.git?path=/Assets/Reflex/#14.0.0",
+    "com.cysharp.unitask": {
+      "version": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "7860febed99b82ca2dc273ca621c13965dc497a2"
+      "hash": "73a63b7f672b88f7e9992f6917eb458a8cbb6fa9"
+    },
+    "com.gustavopsantos.reflex": {
+      "version": "https://github.com/gustavopsantos/reflex.git?path=/Assets/Reflex/#14.1.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "a855f992ab888d2e92027dc38b4db3ab42e5f679"
     },
     "com.unity.addressables": {
       "version": "2.8.0",
@@ -106,7 +113,14 @@
     },
     "com.unity.nuget.mono-cecil": {
       "version": "1.11.5",
-      "depth": 3,
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.nuget.newtonsoft-json": {
+      "version": "3.2.1",
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -257,6 +271,23 @@
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
       }
+    },
+    "com.veriorpies.parrelsync": {
+      "version": "https://github.com/VeriorPies/ParrelSync.git?path=/ParrelSync",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "610157ad762084380380148ba8ce14e266a6da97"
+    },
+    "dev.purrnet.purrnet": {
+      "version": "https://github.com/PurrNet/PurrNet.git?path=/Assets/PurrNet#release",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.nuget.mono-cecil": "1.11.4",
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+      },
+      "hash": "3c4ddbf8d5b0984bee8b2e1049ec66f72657a711"
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
