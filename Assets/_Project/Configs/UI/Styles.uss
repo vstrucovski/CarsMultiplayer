@@ -1,0 +1,9 @@
+.text-title {
+    font-size: 36px;
+    -unity-font-definition: resource('FlatSkin/Font/Roboto-Bold');
+}
+
+.text-normal {
+    font-size: 18px;
+    -unity-font-definition: resource('FlatSkin/Font/Roboto-Regular');
+}
